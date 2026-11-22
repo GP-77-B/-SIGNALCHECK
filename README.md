@@ -1,60 +1,54 @@
 # SIGNALCHECK
 ### Don't just verify information. Verify its journey.
 
-An AI-powered platform that investigates digital content, detects potential manipulation and traces where information comes from.
+An AI-powered platform for investigating digital media, detecting potential manipulation and tracing information back to its sources.
 
 ## What is SIGNALCHECK?
 
-From fake screenshots to deepfake videos and cloned voices, misleading information can take many forms.
+SIGNALCHECK investigates digital content, whether it's an image someone forwarded, a suspicious video, a cloned voice or a live broadcast.
 
-SIGNALCHECK aims to bring media analysis and source investigation together in one place.
+It brings media analysis and source investigation together in one place.
 
-Users can submit images, videos, audio, documents or links, and SIGNALCHECK investigates their authenticity, context and publicly identifiable origins.
+## Two ways to investigate
+
+**1. Upload & Investigate**
+
+Upload images, screenshots, videos, audio, documents or URLs. SIGNALCHECK analyzes the content, searches for related sources and identifies potential inconsistencies.
+
+**2. Live Detection**
+
+Analyze live webcam and microphone feeds or supported external livestreams. SIGNALCHECK examines incoming audio and sampled video frames for potential manipulation indicators.
 
 ## What we're building
 
-- **Image Analysis** — Identify potential image manipulation and find matching original sources.
-- **Deepfake Detection** — Investigate AI-generated and manipulated media.
-- **Video Analysis** — Examine video frames, edits and reused footage.
-- **Audio Analysis** — Investigate synthetic voices, voice cloning and audio alterations.
-- **Source Investigation** — Find original publications and compare different versions.
-- **Evidence Journey Graph** — Visually connect content, sources and investigation findings.
+- **Image Forensics** — Examine potential image manipulation and discover matching sources.
+- **Deepfake Analysis** — Investigate possible AI-generated and manipulated media.
+- **Video Analysis** — Examine frames, edits and reused footage.
+- **Audio Forensics** — Investigate synthetic voices and audio alterations.
+- **Source Investigation** — Trace publicly identifiable origins and compare publications.
+- **Evidence Journey Graph** — Connect discovered sources, media and investigation findings.
 
 ## What makes it different?
 
-SIGNALCHECK doesn't just try to decide whether something is real or fake.
+SIGNALCHECK doesn't just try to label information as real or fake. It investigates where it came from, how it may have changed and what evidence supports the findings.
 
-It investigates where the information came from, how it may have changed and what evidence supports the findings.
+## Initial MVP
 
-## Our Initial MVP
+- Image and screenshot investigation.
+- AI-based claim extraction.
+- Browser-based source discovery.
+- Content comparison and evidence collection.
+- Evidence Journey Graph and investigation report.
+- A limited live webcam/microphone analysis pathway, where feasible.
 
-For the 24-hour hackathon, we're prioritizing:
+External livestream integration and advanced deepfake and voice-cloning detection are additional development goals.
 
-- Image and screenshot analysis.
-- Claim extraction using AI.
-- Source discovery through web investigation.
-- Content comparison.
-- Evidence collection and reporting.
-- An interactive Evidence Journey Graph.
+## Proposed Tech Stack
 
-Advanced video and audio forensics will be explored as additional capabilities.
-
-## Tech Stack
-
-Our proposed technologies include:
-
-- React / Next.js
-- Python / FastAPI
-- Gemini / Multimodal AI
-- MCP
-- Playwright
-- AWS
-- ElevenLabs
-
-*Final technology choices will depend on implementation feasibility.*
+Next.js · FastAPI · Gemini API · MCP · Playwright · FFmpeg · WebRTC · WebSockets · AWS · ElevenLabs
 
 ## Project Status
 
-Currently in the planning stage for **wHACKiest 2026**.
+Planning and architecture stage — wHACKiest 2026.
 
-**Track:** 2 — Beyond the Browser.
+**Track:** Track 2 — Beyond the Browser.
