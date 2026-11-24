@@ -1,5 +1,5 @@
 # SIGNALCHECK — System Architecture
-
+![SIGNALCHECK System Architecture](./signalcheck-system-architecture.png)
 ## Overview
 
 SIGNALCHECK uses two AI agents, specialized media-forensics models and a shared evidence system to investigate digital information.
